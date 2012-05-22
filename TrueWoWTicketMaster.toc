@@ -1,0 +1,78 @@
+## Interface: 30300
+## Title: TrueWoWTicketMaster
+## Author: Edited by Heihachi
+## Version: 3.3.3
+## Notes: This addon only works with Trinity-Servers and 3.x clients. Derived from TrinityAdmin & MangAdmin.
+## URL: http://www.darkracer13.co.cc
+## Name: TrueWoWTicketMaster
+## License: GPLv3
+## X-Date: 15.June 2011
+## X-eMail: gamehacker953@lavabit.com or root@darkracer13.co.cc
+## X-Website: http://www.darkracer13.co.cc
+## OptionalDeps: AceLibrary,AceEvent-2.0,AceHook-2.1,AceDebug-2.0,AceLocale-2.2,AceConsole-2.0,AceAddon-2.0
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: MangAdminDb,gmhview109,Fubar_NotesFu
+## SavedVariablesPerCharacter: MangAdminDbPerChar
+Libraries\AceLibrary\AceLibrary.lua
+Libraries\AceOO-2.0\AceOO-2.0.lua
+Libraries\AceEvent-2.0\AceEvent-2.0.lua
+Libraries\AceHook-2.1\AceHook-2.1.lua
+Libraries\AceDB-2.0\AceDB-2.0.lua
+Libraries\AceDebug-2.0\AceDebug-2.0.lua
+Libraries\AceLocale-2.2\AceLocale-2.2.lua
+Libraries\AceConsole-2.0\AceConsole-2.0.lua
+Libraries\AceAddon-2.0\AceAddon-2.0.lua
+Libraries\Tablet-2.0\Tablet-2.0.lua
+Libraries\DewDrop-2.0\DewDrop-2.0.lua
+Libraries\FrameLib-1.0\FrameLib-1.0.lua
+Libraries\FuBarPlugin-2.0\FuBarPlugin-2.0.lua
+Libraries\LibFuBarPlugin-3.0\LibFuBarPlugin-3.0.lua
+Libraries\LibRockEvent-1.0\LibRockEvent-1.0.lua
+Libraries\Graph-1.0\Graph-1.0.lua
+Locales\enUS.lua
+Locales\deDE.lua
+Locales\frFR.lua
+Locales\svSV.lua
+Locales\itIT.lua
+Locales\strings.lua
+Commands\Commands_Ticket.lua
+Commands\Commands_Misc.lua
+FunctionInit.lua
+TrinityTicketMaster.lua
+MangLinkifier.lua
+Frames\MangFrames_Start.lua
+Frames\MangFrames_Tabs.lua
+Frames\MangFrames_MiniMenu.lua
+Frames\MangFrames_LookupButtons.lua
+Frames\MangFrames_PopupFrames.lua
+Frames\MangFrames_SmallPopupFrames.lua
+Frames\MangFrames_SectionTicket.lua
+Frames\MangFrames_SectionMisc.lua
+MangFrames.lua
+Trinity GM Helper.lua
+FullForm.xml
+MinimapButton.xml
+BanForm.xml
+TicketForm.xml
+CommForm.xml
+ItemForm.xml
+LookupForm.xml
+MiscForm.xml
+NPCForm.xml
+ObjectForm.xml
+OverridesForm.xml
+PlayerForm.xml
+ProfessionsForm.xml
+PetForm.xml
+QuickItemForm.xml
+QuickPortalForm.xml
+SkillForm.xml
+SpellForm.xml
+TeleForm.xml
+WepskForm.xml
+ModifyForm.xml
+MailForm.xml
+NotesFu.xml
+NotesFu.lua
+

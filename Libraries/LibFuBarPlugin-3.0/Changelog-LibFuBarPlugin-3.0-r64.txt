@@ -1,0 +1,13 @@
+------------------------------------------------------------------------
+r64 | nevcairiel | 2009-03-06 10:12:15 +0000 (Fri, 06 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibFuBarPlugin-3.0.toc
+
+Restore LoD to Libraries, as 3.0.8 fixed all bugs that blocked LoD OptionalDeps to load properly.
+------------------------------------------------------------------------
+r63 | arrowmaster | 2008-12-06 06:14:23 +0000 (Sat, 06 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibFuBarPlugin-3.0.lua
+
+Apply a possible bugfix from gizmo1972, although this could probably be fixed in a cleaner way I lack motivation
+------------------------------------------------------------------------

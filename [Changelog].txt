@@ -1,0 +1,13 @@
+-------------------------------------------------
+Changelog - 1.1 - Initial Files
+-------------------------------------------------
+- Updated Trinity commands from Chillu's version
+- Changed the /command names to match what they actually do
+- Updated for WoW Patch 3.3.5a
+- Added credits to me (Kibblebit)
+- Deleted Chillu's Loken View form
+- Fixed NoteFu which was broke by Chillu when he attempted to put in Loken View
+- Fixed Typo In Overrides Form: SnadStorm -> Sandstorm
+- Changed Addon Name: Wrath of Loken GM Helper -> Trinity GM Helper
+- Deleted 'Backup.rar'. May be re-implemented later
+

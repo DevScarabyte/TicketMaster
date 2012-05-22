@@ -1,0 +1,16 @@
+TrinityTicketMaster Changelog
+
+-=[ Revision 4 - 4/13/2010]=-
+- ADD: itIT locale, courtesty of Fareyus. Thanks!
+
+-=[ Revision 1 - 4/13/2010]=-
+- Initial fork from TrinityAdmin
+
+Locale Team:
+Supported Locales & translator:
+enUS: iotech
+frFR: Namida 
+svSV: Lyrr123
+ptPT: Morpheux 
+ptBR: Morpheux 
+

@@ -1,0 +1,35 @@
+## Interface: 30300
+## Title: Trinity GM Helper
+## Author: Kibblebit
+## Version: 1.1
+## Notes: Gamemaster Helper for TrinityCore and Mangos
+## eMail: vvbrandonvv@live.com
+## URL: eternal-wow.com
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: gmhview109,Fubar_NotesFu
+Trinity GM Helper.lua
+FullForm.xml
+MinimapButton.xml
+BanForm.xml
+TicketForm.xml
+CommForm.xml
+ItemForm.xml
+LookupForm.xml
+MiscForm.xml
+NPCForm.xml
+ObjectForm.xml
+OverridesForm.xml
+PlayerForm.xml
+ProfessionsForm.xml
+PetForm.xml
+QuickItemForm.xml
+QuickPortalForm.xml
+SkillForm.xml
+SpellForm.xml
+TeleForm.xml
+WepskForm.xml
+ModifyForm.xml
+MailForm.xml
+NotesFu.xml
+NotesFu.lua

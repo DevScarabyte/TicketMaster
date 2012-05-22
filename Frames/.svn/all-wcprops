@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/2/trunk/Frames
+END
+MangFrames_SectionMisc.lua
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/Frames/MangFrames_SectionMisc.lua
+END
+MangFrames_PopupFrames.lua
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/Frames/MangFrames_PopupFrames.lua
+END
+MangFrames_MiniMenu.lua
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/Frames/MangFrames_MiniMenu.lua
+END
+MangFrames_SectionTicket.lua
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/Frames/MangFrames_SectionTicket.lua
+END
+MangFrames_LookupButtons.lua
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/Frames/MangFrames_LookupButtons.lua
+END
+MangFrames_Tabs.lua
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Frames/MangFrames_Tabs.lua
+END
+MangFrames_SmallPopupFrames.lua
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/Frames/MangFrames_SmallPopupFrames.lua
+END
+MangFrames_Start.lua
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/Frames/MangFrames_Start.lua
+END

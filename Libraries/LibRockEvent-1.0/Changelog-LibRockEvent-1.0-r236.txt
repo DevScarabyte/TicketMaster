@@ -1,0 +1,13 @@
+------------------------------------------------------------------------
+r236 | ckknight | 2008-12-15 15:17:24 +0000 (Mon, 15 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/LibRockEvent-1.0.lua
+
+remove unnecessary collectgarbage calls
+------------------------------------------------------------------------
+r235 | arrowmaster | 2008-11-05 06:52:24 +0000 (Wed, 05 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/LibRockEvent-1.0.lua
+
+Bugfix that I can not explain how it works or how I can reproduce the bug but otheres can not, you will go WTF from the diff
+------------------------------------------------------------------------

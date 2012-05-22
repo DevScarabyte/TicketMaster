@@ -1,0 +1,159 @@
+﻿<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
+	<Frame name="NotesFuFrame" hidden="true" parent="UIParent" toplevel="true" movable="true" enableMouse="true" clampedToScreen="true">
+		<Size>
+			<AbsDimension x="389" y="354" />
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER">
+				<Offset x="-32" y="60" />
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Gold-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			<Button name="btnClose" inherits="UIPanelCloseButton" text="">
+				<Size>
+					<AbsDimension x="37" y="39" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPRIGHT">
+						<Offset x="-6" y="-6" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>FullForm:Show();
+                    NotesFuFrame:Hide();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="btnPrev" inherits="" text="">
+				<Size>
+					<AbsDimension x="33" y="31" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="20" y="-313" />
+					</Anchor>
+				</Anchors>
+				<Backdrop />
+				<Scripts>
+					<OnClick>btnPrev_OnClick();</OnClick>
+					<OnLoad>btnPrev:Disable();</OnLoad>
+				</Scripts>
+				<NormalTexture file="Interface\BUTTONS\UI-SpellbookIcon-PrevPage-Up" />
+				<PushedTexture file="Interface\BUTTONS\UI-SpellbookIcon-PrevPage-Down" />
+				<DisabledTexture file="Interface\BUTTONS\UI-SpellbookIcon-PrevPage-Disabled" />
+			</Button>
+			<Button name="btnNext" inherits="" text="">
+				<Size>
+					<AbsDimension x="33" y="31" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="338" y="-313" />
+					</Anchor>
+				</Anchors>
+				<Backdrop />
+				<Scripts>
+					<OnClick>btnNext_OnClick();</OnClick>
+					<OnLoad>btnNext:Disable();</OnLoad>
+				</Scripts>
+				<NormalTexture file="Interface\BUTTONS\UI-SpellbookIcon-NextPage-Up" />
+				<PushedTexture file="Interface\BUTTONS\UI-SpellbookIcon-NextPage-Down" />
+				<DisabledTexture file="Interface\BUTTONS\UI-SpellbookIcon-NextPage-Disabled" />
+			</Button>
+			<Frame name="Frame1" enableMouse="true">
+				<Size>
+					<AbsDimension x="350" y="270" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="19" y="-40" />
+					</Anchor>
+				</Anchors>
+				<Backdrop bgFile="Interface\AchievementFrame\UI-Achievement-AchievementBackground" edgeFile="">
+					<BackgroundInsets>
+						<AbsInset xsi:nil="true" />
+					</BackgroundInsets>
+					<TileSize>
+						<AbsValue val="0" />
+					</TileSize>
+					<EdgeSize>
+						<AbsValue val="0" />
+					</EdgeSize>
+				</Backdrop>
+				<Frames>
+					<EditBox name="editNote" inherits="" setAllPoints="true" enableMouse="true" enableKeyboard="true" multiLine="true" autoFocus="false">
+						<Size>
+							<AbsDimension x="346" y="266" />
+						</Size>
+						<Anchors>
+							<Anchor point="TOPLEFT">
+								<Offset x="2" y="-2" />
+							</Anchor>
+						</Anchors>
+						<Backdrop bgFile="" edgeFile="" />
+						<Scripts>
+							<OnEscapePressed>editNote_OnEscapePressed();</OnEscapePressed>
+							<OnTextChanged>editNote_OnTextChanged();</OnTextChanged>
+						</Scripts>
+						<FontString inherits="MailTextFontNormal" font="Fonts\MORPHEUS.ttf" bytes="0" justifyH="LEFT">
+							<FontHeight>
+								<AbsValue val="14" />
+							</FontHeight>
+							<Color r="0" g="0" b="0" />
+						</FontString>
+					</EditBox>
+				</Frames>
+				<Scripts>
+					<OnMouseUp>Frame1_OnMouseUp();</OnMouseUp>
+				</Scripts>
+			</Frame>
+		</Frames>
+		<Layers>
+			<Layer level="OVERLAY">
+				<FontString name="FontString1" inherits="GameFontNormal" text="Notes">
+					<Size>
+						<AbsDimension x="138" y="24" />
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="125" y="-15" />
+						</Anchor>
+					</Anchors>
+					<FontHeight>
+						<AbsValue val="16" />
+					</FontHeight>
+				</FontString>
+				<FontString name="fsPage" inherits="GameFontNormal" text="1">
+					<Size>
+						<AbsDimension x="80" y="20" />
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="154" y="-317" />
+						</Anchor>
+					</Anchors>
+					<FontHeight>
+						<AbsValue val="15" />
+					</FontHeight>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnShow>NotesFuFrame_OnShow();</OnShow>
+			<OnHide>NotesFuFrame_OnHide();</OnHide>
+			<OnMouseDown>NotesFuFrame:StartMoving();</OnMouseDown>
+			<OnDragStop>NotesFuFrame:StopMovingOrSizing();</OnDragStop>
+			<OnMouseUp>NotesFuFrame:StopMovingOrSizing(); NotesFu:SaveFramePos();</OnMouseUp>
+		</Scripts>
+	</Frame>
+</Ui>
